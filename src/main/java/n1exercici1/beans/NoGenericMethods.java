@@ -2,39 +2,44 @@ package n1exercici1.beans;
 
 public class NoGenericMethods {
 
-	private Object objecte1;
-	private Object objecte2;
-	private Object objecte3;
+	private String name;
+	private String surname;
+	private String city;
 	
 	
-	public NoGenericMethods(Object objecte1, Object objecte2, Object objecte3) {
+	public NoGenericMethods(String name, String surname, String city) {
 		super();
-		this.objecte1 = objecte1;
-		this.objecte2 = objecte2;
-		this.objecte3 = objecte3;
+		this.name = name;
+		this.surname = surname;
+		this.city = city;
 	}
-	public Object getObjecte1() {
-		return objecte1;
+	
+	
+	public String getName() {
+		return name;
 	}
-	public void setObjecte1(Object objecte1) {
-		this.objecte1 = objecte1;
+	public void setName(String name) {
+		this.name = name;
 	}
-	public Object getObjecte2() {
-		return objecte2;
+	public String getSurname() {
+		return surname;
 	}
-	public void setObjecte2(Object objecte2) {
-		this.objecte2 = objecte2;
+	public void setSurname(String surname) {
+		this.surname = surname;
 	}
-	public Object getObjecte3() {
-		return objecte3;
+	public String getCity() {
+		return city;
 	}
-	public void setObjecte3(Object objecte3) {
-		this.objecte3 = objecte3;
+	public void setCity(String city) {
+		this.city = city;
 	}
+	
 	@Override
 	public String toString() {
-		return "NoGenericMethods [objecte1=" + objecte1 + ", objecte2=" + objecte2 + ", objecte3=" + objecte3 + "]";
+		return "NoGenericMethods [name=" + name + ", surname=" + surname + ", city=" + city + "]";
 	}
+	
+	
 	
 	
 }
