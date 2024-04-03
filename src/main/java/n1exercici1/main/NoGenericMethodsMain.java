@@ -11,9 +11,9 @@ public class NoGenericMethodsMain {
 		NoGenericMethods demo2 = new NoGenericMethods("Madrid", "Pedro", "González");
 		NoGenericMethods demo3 = new NoGenericMethods("Laura", "Zaragoza","Rodríguez");
 		
-		System.out.println(demo1.toString());
-		System.out.println(demo2.toString());
-		System.out.println(demo3.toString());
+		System.out.println(demo1);
+		System.out.println(demo2);
+		System.out.println(demo3);
 
 	}
 
